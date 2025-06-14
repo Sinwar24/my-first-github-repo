@@ -1,0 +1,65 @@
+
+.nav {
+               display: flex;
+               gap: 30px;
+               text-decoration: none;
+              
+               list-style: none;
+               padding-top: 0px;
+               margin-top: 0px;
+               padding-right: 40px;
+               font-size: 17px;;
+}
+
+.nav li:hover {
+               color: white;
+               background-color: navy;
+               padding: 12px;
+}
+
+#header { display: flex;
+justify-content: space-between;
+align-items: center;}  
+
+
+#logo_name {
+               font-size: 35px;
+               font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+               display: flex;
+               
+               padding-left: 28px;
+               padding-top: 40px;
+ }
+
+#bg_color  {   background-color: rgba(0, 4, 8, 0.4); 
+
+}
+
+#bg_img {
+               background-size: cover;
+               background-image: url(images/web\ img\ nine.webp);
+               background-size: 1300px 1000px;
+               background-repeat: no-repeat;
+               height: 800px;
+               color: black;
+               text-align: center;
+               
+               
+}
+
+
+
+#button {
+padding: 25px;
+color: blue;
+font-size: 20px;
+
+
+}
+#text {
+padding: 180px;
+font-family: serif;
+font-size: 70px;
+color: rgb(0, 28, 39);
+}
+              
